@@ -4,7 +4,8 @@ lazy val root = (project in file("."))
       organization := "edu.shekhar.fp",
       scalaVersion := "3.2.2"
     )),
-    name := "scala functional programming"
+    name := "scala functional programming",
+    Compile / run / mainClass := Some("edu.shekhar.fp.Main")
   )
 
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.15"
