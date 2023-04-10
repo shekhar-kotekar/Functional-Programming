@@ -2,9 +2,15 @@
 This repository contains code written while learning functional programming in Scala, Python and Rust programming languages.
 
 ## Python IDE settings
-Create conda environment using below command
+1. Create conda environment using below command
 
 `conda create -n python_3_10_env python=3.10 anaconda`
+2. Click on `File -> Project Structure -> Modules -> + (Add) + Import Module` to add a new module in the project
+3. Browse to `<Project root directory> -> python` directory and then click `Open`
+4. Select `Create module from existing sources` then click `next` and click on `Create`. This step will add a Python module in the project
+5. Now we need to specify `Module SDK` for this Python module. Select `python` under the list of modules
+6. Under `Project Structure` -> `Dependencies` section -> Click on `Module SDK`
+7. Select the conda environment we created in step 1 and click on apply.
 
 ## Scala IDE settings
 1. Click on `File -> Project Structure -> Modules -> + (Add) + Import Module` to add a new module in the project
