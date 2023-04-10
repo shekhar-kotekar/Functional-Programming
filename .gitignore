@@ -1,2 +1,16 @@
-*.class
+# common things to ignore
+.idea
 *.log
+
+# Scala things to ignore
+*.class
+
+# Rust things to ignore
+*/target/
+*.lock
+
+# Python things to ignore
+*/.pyc
+
+
+
