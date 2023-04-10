@@ -1,9 +1,11 @@
 # common things to ignore
 .idea
+*.bsp
 *.log
 
 # Scala things to ignore
 *.class
+*target/
 
 # Rust things to ignore
 */target/
@@ -11,6 +13,3 @@
 
 # Python things to ignore
 */.pyc
-
-
-
